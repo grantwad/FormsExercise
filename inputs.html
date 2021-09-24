@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Form input elements">
+    <title>Form Input Elements</title>
+</head>
+<body>
+    <!-- Form element/tags creates an HTML form -->
+    <!-- Action is where the info is being sent or retrieved from (Ex: A Web Address) -->
+    <!-- Method determines whether it will be sending or retrieving data (Ex: POST would be sent data. GET would be reretrieving data) -->
+    <form action="https:/www.espn.com" method="GET"></form>
+
+    <h1>Login</h1>
+    <!-- Form elements/tags are block elements -->
+    <form>
+        <!-- Input elements are self-closing. Also, inputs use the type attribute to determine the type of input they will be -->
+        <!-- Text Input (Most commonly used input) -->
+        <!-- Name attribute is used to access the user's entry into an input -->
+        <!-- Placeholder attribute will display text in the input until the user starts typing inside the input -->
+        <input type="text" name="username" placeholder="Username"> 
+        <!-- Password Input (Hides the user's entry) -->
+        <input type="password" name="password" placeholder="Password">
+        <!-- Submit input in a form will submit the values in a form. The text/content set for the value attribute is what will display in the submit input (NOTE: If the value attribute is not used, then "Submit" will display in the input) -->
+        <input type="submit" value="Click Here">
+
+    </form>
+</body>
+</html>
